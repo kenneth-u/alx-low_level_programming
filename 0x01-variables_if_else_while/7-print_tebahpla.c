@@ -3,14 +3,14 @@
 /**
  *main - Entry point
  *
- *  alphabet in reversed lowercase, followed by a new line
+ *  prints the lowercase alphabet in reverse, followed by a new line
  *  Return: 0 (Success)
  */
 int main(void)
 {
 	char i;
 
-	for (i = 'z'; i <= 'a'; i--)
+	for (i = 'z'; i >= 'a'; i--)
 	{
 		putchar(i);
 	}
