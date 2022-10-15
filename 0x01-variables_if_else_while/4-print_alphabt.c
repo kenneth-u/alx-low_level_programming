@@ -3,16 +3,19 @@
 /**
  *main - Entry point
  *
- *  alphabet in lowercase, followed by a new line
+ *  alphabet in lowercase except e and q, followed by a new line
  *  Return: 0 (Success)
  */
 int main(void)
 {
-	char i;
+	char i = 'a';
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(i);
+		if ((i != 'e') && (i != 'q'))
+		{
+			putchar(i);
+		}
 	}
 	putchar('\n');
 
