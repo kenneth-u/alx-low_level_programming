@@ -1,18 +1,19 @@
 #include "main.h"
+
 /**
- * print_alphabet_x10 - print 10 times the alphabet, in lowercase
+ *print_alphabet_x10 - print 10 times the alphabet, in lowercase
+ *
  */
 
 void print_alphabet_x10(void)
 {
-	int y = 0;
+	int y;
 	char x;
 
-	while (y++ <= 9)
+	for (y = 0; y <= 9; y++)
 	{
-		for (x = 'a'; x <= 'z'; x++)
-			_putchar(x);
-		_putchar('/n');
-
+	for (x = 'a'; x <= 'z'; x++)
+	_putchar(x);
+	_putchar('/n');
 	}
 }
