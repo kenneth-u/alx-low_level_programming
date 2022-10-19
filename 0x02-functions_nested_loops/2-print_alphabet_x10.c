@@ -5,7 +5,7 @@
 
 void print_alphabet_x10(void)
 {
-	int cout = 0;
+	int count = 0;
 	char letter;
 
 	while (count++ <= 9)
