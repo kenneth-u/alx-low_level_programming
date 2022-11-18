@@ -1,4 +1,4 @@
-#ifndef CALC_H
+et ffifndef CALC_H
 #define CALC_H
 
 int (*get_op_func(char *s))(int, int);
